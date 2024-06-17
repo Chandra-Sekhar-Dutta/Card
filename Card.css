@@ -1,0 +1,73 @@
+body {
+    background-color: grey;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    height: 480px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.image {
+    margin: auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    border-radius: 7px;
+}
+
+span {
+    padding: 20px;
+    margin: auto;
+    color: grey;
+    position: relative;
+    top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin: auto;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: medium;
+}
+
+button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    padding: 6px;
+    width: 100px;
+    border: none;
+    border-radius: 50px;
+    top: 7px;
+    background-color: rgb(186, 230, 242);
+    color: rgb(140, 140, 237);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(123, 206, 227);
+    color: aliceblue;
+}
